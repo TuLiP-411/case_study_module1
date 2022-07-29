@@ -6,8 +6,16 @@
     <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
+<h1>🧠 Memory Game Demo Easy</h1>
+<p>Memory Game, also known as the Concentration card game or Matching Game, <br>is a simple card game where you need to match pairs by turn over 2 cards at a time.</p>
 <h3>Score: <span id="result"></span></h3>
 <div id="grid"></div>
+<audio id="bgrMusic" loop autoplay="autoplay">
+    <source src="sound/Move-Forward.mp3" type="audio/mp3">
+</audio>
+<audio id="winMusic" autoplay="autoplay">
+    <source src="sound/mixkit-ethereal-fairy-win-sound-2019.wav" type="audio/wav">
+</audio>
 </body>
 <script src="game.js"></script>
 </html>

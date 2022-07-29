@@ -23,9 +23,12 @@ const gridDisplay = document.querySelector('#grid')
 let cardsChosen = [];
 let cardsChosenIds = [];
 let cardsWon = [];
-let result = document.querySelector('#result')
+let result = document.querySelector('#result');
+let bgrMusic = document.querySelector('#bgrMusic');
+let winMusic = document.querySelector('#winMusic');
 
 function createBoard() {
+    bgrMusic.play();
     for (let i = 0; i < cardArray.length; i++) {
         const card = document.createElement('img')
         card.setAttribute('src', 'images/blank.png')
@@ -33,15 +36,12 @@ function createBoard() {
         card.addEventListener('click', flipCard)
         gridDisplay.appendChild(card)
     }
-
 }
-
-createBoard()
 
 function checkMatch() {
     const cards = document.querySelectorAll('img')
-    if (cardsChosen[0] == cardsChosen[1]) {
-        if (cardsChosenIds[0] == cardsChosenIds[1]) {
+    if (cardsChosen[0] === cardsChosen[1]) {
+        if (cardsChosenIds[0] === cardsChosenIds[1]) {
             cards[cardsChosenIds[0]].setAttribute('src', 'images/blank.png')
             cards[cardsChosenIds[1]].setAttribute('src', 'images/blank.png')
             alert('You have clicked the same card')
@@ -60,8 +60,10 @@ function checkMatch() {
     cardsChosen = [];
     cardsChosenIds = [];
 
-    if (cardsWon.length == cardArray.length / 2) {
+    if (cardsWon.length === cardArray.length / 2) {
         result.innerHTML = 'Congratulation! You have found them all'
+        winMusic.play()
+
     }
 }
 
@@ -75,3 +77,5 @@ function flipCard() {
     }
 
 }
+
+window.onload(createBoard());

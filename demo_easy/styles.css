@@ -3,3 +3,8 @@
     height: 300px;
     flex-wrap: wrap;
 }
+
+body {
+    position: absolute;
+    left: 35%;
+}
