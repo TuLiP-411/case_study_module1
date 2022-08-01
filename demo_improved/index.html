@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧠 Memory Game</title>
+    <link rel="stylesheet" href="assets/styles.css"/>
+</head>
+<body>
+<div class="game">
+    <div class="controls">
+        <audio id="bgrMusic" loop autoplay="autoplay">
+            <source src="sound/Move-Forward.mp3" type="audio/mp3">
+        </audio>
+        <button>Start</button>
+        <div class="stats">
+            <div class="moves">0 moves</div>
+            <div class="timer">time: 0 sec</div>
+        </div>
+    </div>
+    <div class="board-container">
+        <div class="board" ></div>
+        <div class="win">You won!</div>
+        <audio id="winMusic" autoplay="autoplay">
+            <source src="sound/mixkit-ethereal-fairy-win-sound-2019.wav" type="audio/wav">
+        </audio>
+    </div>
+</div>
+</body>
+<script src="assets/game.js" defer></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</html>

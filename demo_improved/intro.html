@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🧠 Memory Game Intro</title>
+    <style>
+        @font-face {
+            font-family: Fredoka;
+            src: url(assets/FredokaOne-Regular.ttf);
+        }
+
+        body, html {
+            height: 100%;
+        }
+
+        .container {
+            position: absolute;
+        }
+
+        .container img {
+            position: absolute;
+
+        }
+
+        .container .btn {
+            position: absolute;
+            top: 530px;
+            left: 235px;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+
+            background: #282A3A;
+            color: #FFF;
+            border-radius: 5px;
+            padding: 10px 20px;
+            border: 0;
+            cursor: pointer;
+            font-family: Fredoka;
+            font-size: 50pt;
+        }
+
+        .container .btn:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <img src="memory-game-javascript.png" alt="memory-game">
+    <button class="btn" onclick="document.location = 'level.html';playAudio()">Start</button>
+</div>
+
+</body>
+<script>
+    let audio = new Audio("sound/click.wav")
+
+
+    function playAudio() {
+        audio.play();
+
+    }
+
+</script>
+</html>

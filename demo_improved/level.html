@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🧠 Memory Game Level</title>
+    <style>
+        @font-face {
+            font-family: Fredoka;
+            src: url(assets/FredokaOne-Regular.ttf);
+        }
+
+        html {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(325deg, #6f00fc 0%, #fc7900 50%, #fcc700 100%);
+            font-family: Fredoka;
+        }
+
+        button {
+            position: relative;
+            top: 380px;
+            left: 400px;
+            background: #282A3A;
+            color: #FFF;
+            border-radius: 5px;
+            padding: 10px 80px;
+            border: 0;
+            cursor: pointer;
+            font-family: Fredoka;
+            font-size: 30pt;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        .header {
+            position: absolute;
+            top: 150px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            font-size: 30pt;
+            color: #FDF8E6;
+
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <h2>Level Selection</h2>
+    <p>Please choose one level bellow to start playing: </p>
+</div>
+<div class="levelButton">
+    <button onclick="document.location = 'index.html'" onmouseover="setLevelEasy()">Easy</button>
+    <button onclick="document.location = 'index.html'" onmouseover="setLevelMedium()">Medium</button>
+    <button onclick="document.location = 'index.html'" onmouseover="setLevelHard()">Hard</button>
+</div>
+</body>
+<script>
+    function setLevelEasy() {
+        localStorage.setItem("dimension", "2");
+    }
+
+    function setLevelMedium() {
+        localStorage.setItem("dimension", "4");
+    }
+
+    function setLevelHard() {
+        localStorage.setItem("dimension", "6");
+    }
+</script>
+</html>
