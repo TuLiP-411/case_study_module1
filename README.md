@@ -1,4 +1,4 @@
 <h1 align="center">
     <img src="memory-game-javascript.png" alt="Memory game created in JavaScript" />
 </h1>
-<h4 align="center">You can read the written tutorial about the implementation on <strong><a href="https://www.webtips.dev/memory-game-in-javascript">webtips.dev</a></strong> 🧠</h4>
+<h4 align="center">Source code has been deployed on Netlify. You can play the demo here <strong><a href="https://phungtulinh-memorygame.netlify.app/">phungtulinh-memorygame.netlify.app</a></strong> 🧠</h4>
