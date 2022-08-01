@@ -53,9 +53,9 @@
     <p>Please choose one level bellow to start playing: </p>
 </div>
 <div class="levelButton">
-    <button onclick="document.location = 'index.html'" onmouseover="setLevelEasy()">Easy</button>
-    <button onclick="document.location = 'index.html'" onmouseover="setLevelMedium()">Medium</button>
-    <button onclick="document.location = 'index.html'" onmouseover="setLevelHard()">Hard</button>
+    <button onclick="document.location = 'index.html';playAudio()" onmouseover="setLevelEasy()">Easy</button>
+    <button onclick="document.location = 'index.html';playAudio()" onmouseover="setLevelMedium()">Medium</button>
+    <button onclick="document.location = 'index.html';playAudio()" onmouseover="setLevelHard()">Hard</button>
 </div>
 </body>
 <script>
@@ -69,6 +69,13 @@
 
     function setLevelHard() {
         localStorage.setItem("dimension", "6");
+    }
+
+    let audio = new Audio("../sound/click.wav")
+
+    function playAudio() {
+        audio.play();
+
     }
 </script>
 </html>
