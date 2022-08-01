@@ -4,34 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19f2e953-46e8-4d97-bf6c-8b1dfc23511b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.intro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/level.html" beforeDir="false" />
+    <list default="true" id="72a0e6d5-05c3-4d5b-8959-5ec49b65d61f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../1.intro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../level.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2CYeTCTZLPDnrOfoK4E1VlotfMA" />
+  <component name="ProjectId" id="2CYzIEk343GSucJDKk2zcTGvwwr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HOANG/WebstormProjects/case_study_module1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HOANG/WebstormProjects/case_study_module1/demo_easy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -42,16 +48,19 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="19f2e953-46e8-4d97-bf6c-8b1dfc23511b" name="Changes" comment="" />
-      <created>1658983950973</created>
+      <changelist id="72a0e6d5-05c3-4d5b-8959-5ec49b65d61f" name="Changes" comment="" />
+      <created>1658994225915</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1658983950973</updated>
-      <workItem from="1658983952356" duration="73000" />
-      <workItem from="1658984055297" duration="19000" />
-      <workItem from="1659056863781" duration="12167000" />
-      <workItem from="1659327515281" duration="17000" />
-      <workItem from="1659327534467" duration="519000" />
+      <updated>1658994225915</updated>
+      <workItem from="1658994229076" duration="10910000" />
+      <workItem from="1659026931554" duration="5000" />
+      <workItem from="1659056631111" duration="222000" />
+      <workItem from="1659067565853" duration="527000" />
+      <workItem from="1659069644116" duration="4782000" />
+      <workItem from="1659085002698" duration="5795000" />
+      <workItem from="1659315853393" duration="8636000" />
+      <workItem from="1659325428580" duration="1704000" />
     </task>
     <servers />
   </component>
